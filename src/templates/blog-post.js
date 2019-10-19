@@ -28,7 +28,7 @@ class BlogPostTemplate extends React.Component {
     }
 
     return (
-      <Layout>
+      <Layout showHeader={ false }>
         <Container>
           <Helmet
             title={`${post.frontmatter.title} | ${author}`}
@@ -39,7 +39,7 @@ class BlogPostTemplate extends React.Component {
               content={`${userConfig.title} | ${userConfig.description}`}
             />
           </Helmet>
-          <Card>
+        
             <ArticleHeader>
               {post.frontmatter.featuredImage && (
                 <FeaturedImage
@@ -56,7 +56,7 @@ class BlogPostTemplate extends React.Component {
             {userConfig.showShareButtons && (
               <Share url={url} title={post.frontmatter.title} />
             )}
-          </Card>
+         
 
           <PageNav>
             {previous && (

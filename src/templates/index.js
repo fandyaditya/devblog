@@ -15,7 +15,7 @@ const IndexPage = ({ pageContext }) => {
   const previousUrl = index - 1 === 1 ? '' : (index - 1).toString();
   const nextUrl = (index + 1).toString();
   return (
-    <Layout>
+    <Layout showHeader={true}>
       <Container>
         <Helmet
           title={`${userConfig.title} | ${userConfig.author}`}
