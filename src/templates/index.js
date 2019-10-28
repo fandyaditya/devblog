@@ -9,6 +9,7 @@ import Card from '../components/Card';
 import Container from '../components/Container';
 import Pagination from '../components/Pagination';
 import Summary from '../components/Summary';
+import Grid from '../components/Grid';
 
 const IndexPage = ({ pageContext }) => {
   const { group, index, pageCount } = pageContext;
@@ -26,17 +27,19 @@ const IndexPage = ({ pageContext }) => {
             content={`${userConfig.title} | ${userConfig.description}`}
           />
         </Helmet>
-        {group.map(({ node }) => (
-          <Card key={node.fields.slug}>
-            <Summary
-              date={node.frontmatter.date}
-              title={node.frontmatter.title}
-              excerpt={node.excerpt}
-              image={node.frontmatter.featuredImage}
-              slug={node.fields.slug}
-            />
-          </Card>
-        ))}
+        <Grid>
+          {group.map(({ node }) => (
+            <Card key={node.fields.slug}>
+              <Summary
+                date={node.frontmatter.date}
+                title={node.frontmatter.title}
+                excerpt={node.excerpt}
+                image={node.frontmatter.featuredImage}
+                slug={node.fields.slug}
+              />
+            </Card>
+          ))}
+        </Grid>
         <Pagination
           isFirst={index === 1}
           isLast={index === pageCount}
