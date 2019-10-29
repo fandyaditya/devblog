@@ -1,5 +1,5 @@
 ---
-title: Hello Worlds
+title: Hello World
 date: "2018-06-30"
 ---
 
