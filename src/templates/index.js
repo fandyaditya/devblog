@@ -10,7 +10,7 @@ import Container from '../components/Container';
 import Pagination from '../components/Pagination';
 import Summary from '../components/Summary';
 import Grid from '../components/Grid';
-import BlogPost from '../templates/blog-post'
+import WelcomePost from '../components/WelcomePost'
 
 const IndexPage = ({ pageContext }) => {
   const { group, index, pageCount } = pageContext;
@@ -26,7 +26,7 @@ const IndexPage = ({ pageContext }) => {
             name="description"
             content={`${userConfig.title} | ${userConfig.description}`}/>
         </Helmet>
-        {/* <BlogPost/> */}
+        <WelcomePost/>
         <Grid>
           {group.map(({ node }) => 
             {
