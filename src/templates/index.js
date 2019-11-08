@@ -10,6 +10,7 @@ import Container from '../components/Container';
 import Pagination from '../components/Pagination';
 import Summary from '../components/Summary';
 import Grid from '../components/Grid';
+import BlogPost from '../templates/blog-post'
 
 const IndexPage = ({ pageContext }) => {
   const { group, index, pageCount } = pageContext;
@@ -20,32 +21,38 @@ const IndexPage = ({ pageContext }) => {
       <Container>
         <Helmet
           title={`${userConfig.title} | ${userConfig.author}`}
-          htmlAttributes={{ lang: 'en' }}
-        >
+          htmlAttributes={{ lang: 'en' }}>
           <meta
             name="description"
-            content={`${userConfig.title} | ${userConfig.description}`}
-          />
+            content={`${userConfig.title} | ${userConfig.description}`}/>
         </Helmet>
+        {/* <BlogPost/> */}
         <Grid>
-          {group.map(({ node }) => (
-            <Card key={node.fields.slug}>
-              <Summary
-                date={node.frontmatter.date}
-                title={node.frontmatter.title}
-                excerpt={node.excerpt}
-                image={node.frontmatter.featuredImage}
-                slug={node.fields.slug}
-              />
-            </Card>
-          ))}
+          {group.map(({ node }) => 
+            {
+              let result = null;
+              if(node.fields.slug != "/about/") {
+                result = (  
+                  <Card key={node.fields.slug}>
+                    <Summary
+                      date={node.frontmatter.date}
+                      title={node.frontmatter.title}
+                      excerpt={node.excerpt}
+                      image={node.frontmatter.featuredImage}
+                      slug={node.fields.slug}
+                    />
+                  </Card>
+                )
+              }
+              return result
+            }
+          )}
         </Grid>
         <Pagination
           isFirst={index === 1}
           isLast={index === pageCount}
           nextUrl={nextUrl}
-          previousUrl={previousUrl}
-        />
+          previousUrl={previousUrl}/>
       </Container>
     </Layout>
   );
