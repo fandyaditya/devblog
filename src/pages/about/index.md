@@ -1,24 +1,23 @@
-An h1 header
-============
+---
+title: Though and everyday ideas
+---
 
-Paragraphs are separated by a blank line.
+Sejak tahun 2017 sudah ingin untuk punya *personal website*, tapi baru terimplementasi sekarang karena nemu *tools* yang mempermudah untuk membuatnya. Website ini dibuat dari [sini](https://github.com/RyanFitzgerald/devblog) dengan sedikit modifikasi ditampilan.
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
+Hai, aku Fandy. Sekarang sedang bekerja sebagai *software engineer* di ibukota. Cukup menikmati pekerjaan ini karena sesuai dengan apa yang dibayangkan ketika kuliah.
 
-  * this one
-  * that one
-  * the other one
+Waktu SMA sempat ikut nulis di website temen (sekarang udah tutup) dan rasanya cukup asik. Jadi ingin mengulang keasikan waktu itu. Selain itu, jenjang hidup yang stagnan membuat ingin mencari *habit* baru. 
 
-Note that --- not considering the asterisk --- the actual text
-content starts at 4-columns in.
+Website ini bakalan berisi beberapa tulisan mengenai *strange thought*, kerjaan kantor, pengalaman, *side project*, inspirasi dan *current interest*. 
 
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
+Website akan dibuat sesimpel mungkin, mungkin kedepannya akan ditambahkan beberapa fungsionalitas yang dirasa perlu. Update post juga tidak akan rutin, sesuai keingingan saja.
 
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
-in chapters 12--14"). Three dots ... will be converted to an ellipsis.
-Unicode is supported. ☺
+Quotes dari buku-buku yang telah dibaca, Mungkin bertambah seiring dengan bertambahnya buku yang dibaca.
+
+Quotes Counter: 3
+
+> *Start the uncomfortable conversation now*\
+> *It's ok to feel stupid*\
+> *Money come and go*
+
+

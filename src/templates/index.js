@@ -4,6 +4,7 @@ import React from 'react';
 import userConfig from '../../config';
 
 import Layout from './layout';
+import Footer from '../components/Footer'
 
 import Card from '../components/Card';
 import Container from '../components/Container';
@@ -53,6 +54,7 @@ const IndexPage = ({ pageContext }) => {
           isLast={index === pageCount}
           nextUrl={nextUrl}
           previousUrl={previousUrl}/>
+        <Footer/>
       </Container>
     </Layout>
   );
