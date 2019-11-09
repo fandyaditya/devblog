@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const PostHeader = styled.div`
-  margin-bottom: 10em;
+  margin-bottom: 5em;
 
   h1 {
     color: #3e465b;

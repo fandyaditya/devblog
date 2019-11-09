@@ -44,7 +44,7 @@ function WelcomePost() {
         <h1>{post.frontmatter.title}</h1>
         <p>{post.frontmatter.date}</p>
       </ArticleHeader>
-      <Article>
+      <Article style={{color: 'black'}}>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </Article>
       <span />
