@@ -13,7 +13,8 @@ class Template extends React.Component {
     return (
       <div>
         <GlobalStyle />
-        <Header config={userConfig} />
+        {this.props.showHeader && 
+          (<Header config={userConfig} />)}
         {children}
       </div>
     );
