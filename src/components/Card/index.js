@@ -12,6 +12,7 @@ const Card = styled.div`
     border-left: none;
     border-right: none;
     padding: 75px 15px;
+    margin: 0 25px;
   }
 `;
 

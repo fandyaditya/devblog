@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'fandyaditya.me', // Required
+  title: 'Saga', // Required
   author: 'Fandy Aditya', // Required
   description: 'Developer',
   primaryColor: '#3498db', // Required
@@ -14,5 +14,5 @@ module.exports = {
     linkedin: '',
   },
   pathPrefix: '/devblog',
-  siteUrl: 'https://ryanfitzgerald.github.io/devblog/',
+  siteUrl: 'https://fandyaditya.me',
 };

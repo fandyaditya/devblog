@@ -59,10 +59,16 @@ module.exports = {
         background_color: '#fff',
         theme_color: userConfig.primaryColor,
         display: 'minimal-ui',
-        icon: 'src/main.jpg',
+        icon: 'src/quotes.png',
       },
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `fandyaditya-me`
+      }
+    },
   ],
 };
