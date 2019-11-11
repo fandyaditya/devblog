@@ -1,8 +1,8 @@
 {
   "name": "devblog",
-  "description": "GatsbyJS blog template for developers",
+  "description": "GatsbyJS blog template for developers modified by Fandy",
   "version": "2.0.0",
-  "author": "Ryan Fitzgerald <ryanfitzgeralddev@gmail.com>",
+  "author": "Fandy Aditya <fandyckz@yahoo.com>",
   "bugs": {
     "url": "https://github.com/ryanfitzgerald/devblog/issues"
   },
@@ -39,7 +39,7 @@
     "gh-pages": "^1.1.0",
     "prettier": "^1.12.0"
   },
-  "homepage": "https://github.com/ryanfitzgerald/devblog#readme",
+  "homepage": "",
   "keywords": [
     "gatsby",
     "dev",
