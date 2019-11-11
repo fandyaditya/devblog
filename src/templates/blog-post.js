@@ -10,17 +10,21 @@ import Layout from './layout';
 import Article from '../components/Article';
 import ArticleHeader from '../components/ArticleHeader';
 import Button from '../components/Button';
-import Card from '../components/Card';
 import Container from '../components/Container';
 import FeaturedImage from '../components/FeaturedImage';
 import PageNav from '../components/PageNav';
 import Share from '../components/Share';
+import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark;
     const author = get(this.props, 'data.site.siteMetadata.author');
     const { previous, next } = this.props.pageContext;
+    let disqusConfig = {
+      identifier: post.id,
+      title: post.frontmatter.title,
+    }
 
     let url = '';
     if (typeof window !== `undefined`) {
@@ -28,35 +32,45 @@ class BlogPostTemplate extends React.Component {
     }
 
     return (
-      <Layout>
+      <Layout showHeader={ false }>
+
         <Container>
+
           <Helmet
             title={`${post.frontmatter.title} | ${author}`}
-            htmlAttributes={{ lang: 'en' }}
-          >
+            htmlAttributes={{ lang: 'en' }}>
             <meta
               name="description"
               content={`${userConfig.title} | ${userConfig.description}`}
             />
+
           </Helmet>
-          <Card>
+        
             <ArticleHeader>
+
               {post.frontmatter.featuredImage && (
                 <FeaturedImage
                   sizes={post.frontmatter.featuredImage.childImageSharp.sizes}
                 />
               )}
+
               <h1>{post.frontmatter.title}</h1>
               <p>{post.frontmatter.date}</p>
               <span />
+
             </ArticleHeader>
+
             <Article>
+
+              {/* <CommentCount config={disqusConfig} placeholder={'...'} /> */}
               <div dangerouslySetInnerHTML={{ __html: post.html }} />
+
             </Article>
+
             {userConfig.showShareButtons && (
               <Share url={url} title={post.frontmatter.title} />
             )}
-          </Card>
+         
 
           <PageNav>
             {previous && (
@@ -71,6 +85,9 @@ class BlogPostTemplate extends React.Component {
               </Button>
             )}
           </PageNav>
+          
+            <Disqus style={{marginLeft: 50, marginRight: 50, marginTop: 25}} config={disqusConfig} />
+
         </Container>
       </Layout>
     );

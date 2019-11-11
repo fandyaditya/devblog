@@ -11,11 +11,11 @@ import ContinueReading from './ContinueReading';
 function Summary({date, title, excerpt, slug, image}) {
   return (
     <Wrapper>
-        {image &&
+        {/* {image &&
           <Link to={slug}>
             <FeaturedImage sizes={image.childImageSharp.sizes}/>
           </Link>
-        }
+        } */}
         <H1><Link to={slug}>{title}</Link></H1>
         <Date>{date}</Date>
         <P>{excerpt}</P>
