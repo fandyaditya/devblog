@@ -50,6 +50,6 @@ function WelcomePost() {
       <span />
     </Wrapper>
   )
-};
+}
 
 export default WelcomePost;
