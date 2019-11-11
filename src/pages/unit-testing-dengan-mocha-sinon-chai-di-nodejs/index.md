@@ -1,6 +1,7 @@
 ---
 title: Unit Testing dengan Mocha, Sinon, Chai di Nodejs
 date: "2019-11-10"
+featuredImage: './unit-testing.png'
 ---
 
 Artikel ini dibuat untuk review sekaligus dokumentasi ketika exploring mengenai unit testing. Isinya seharusnya *newbie friendly* karena memang dibuat untuk belajar. Unit testingnya menggunakan node js. 
