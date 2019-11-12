@@ -8,11 +8,11 @@ module.exports = {
   showHeader: true, // Required
   postsPerPage: 5, // Required
   social: {
-    website: 'https://fandyaditya.me',
+    website: 'fandyaditya.com',
     github: '',
     twitter: '',
     linkedin: '',
   },
   pathPrefix: '/devblog',
-  siteUrl: 'https://fandyaditya.me',
+  siteUrl: 'https://fandyaditya.com',
 };

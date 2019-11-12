@@ -46,7 +46,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        //trackingId: this will be my tracking id, after deploying to netlify and buy the domain,
       },
     },
     `gatsby-plugin-feed`,
