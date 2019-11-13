@@ -46,7 +46,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: this will be my tracking id, after deploying to netlify and buy the domain,
+        trackingId: 'UA-149455234-1',
+        head: true
       },
     },
     `gatsby-plugin-feed`,
@@ -67,7 +68,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
-        shortname: `fandyaditya-me`
+        shortname: `fandyaditya-com`
       }
     },
   ],
