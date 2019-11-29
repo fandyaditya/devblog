@@ -10,7 +10,7 @@ Hampir setahun belakang ini aku selalu mencatat ide-ide yang muncul. Yang rencan
 
 Tapi 2 minggu terakhir aku sangat termotivasi untuk mengeksekusi salah satu dari list ide yang ada, dan menurutku ini bisa jadi referensi bagian kalian yang mempunyai kerjaan atau *goal* tapi tidak pernah bisa memulainya karena tidak ada motivasi.
 
-Aku habis baca buku **Motivational Hacker** yang secara gari besar menceritakan bagaimana dia bisa termotivasi melakukan *goals* dia yang dengan waktu kita yang terbatas. Dia menciptakan persamaan motivasi yakni sbb:
+Aku habis baca buku **Motivational Hacker** yang secara garis besar menceritakan bagaimana dia bisa termotivasi melakukan *goals*-nya dengan waktu jangka waktu yang panjang. Dia menciptakan persamaan motivasi yakni sbb:
 
 > Motivation = (Expectation x Value) / (Impulsivness x Delay)
 
@@ -28,7 +28,7 @@ Contohnya misal kita ingin memliki tubuh yang ideal, untuk mencapai tubuh yang i
 
 Kita mulai dari **Expectation**. Seberapa besar keyakinan untuk mencapai tubuh ideal dengan nge-gym. Keyakinan kita bisa berasal dari teman atau saudara yang rutin nge-gym & terbukti memiliki badan yang ideal.
 
-**Value**-nya. Bisa kita nilai dari seberapa besar keuntungan dari memiliki *tubuh yang ideal* ini. Mungkin dengan memiliki tubuh ideal kita percaya kita akan merasa lebih percaya diri bertemu dengan orang baru, atau dengan memiliki tubuh yang ideal kita percaya bisa mendapatkan *privilege* di lingkungan sosial. Selain itu sebarapa *fun* nanti kita akan nge-gym mungkin kita bisa nge-gym bareng teman.
+**Value**-nya. Bisa kita nilai dari seberapa besar keuntungan dari memiliki *tubuh yang ideal* ini. Mungkin dengan memiliki tubuh ideal kita percaya kita akan merasa lebih percaya diri bertemu dengan orang baru, atau dengan memiliki tubuh yang ideal kita percaya bisa mendapatkan *privilege* di lingkungan sosial. Selain itu sebarapa *fun* nanti kita akan nge-gym mungkin dengan cara melakukannya bersama teman.
 
 **Impulsiveness**. Distraksi mungkin bisa dari tempat gym-nya terlalu jauh, atau kerjaan kantor yang padat. Atau mungkin kita punya mainan/console game baru yang membuat kita mengabaikan gym.
 
@@ -38,7 +38,7 @@ Berdasarkan contoh tersebut, konteks dari **Expectation, Value dan Delay** memil
 
 Dalam kasusku, aku ingin memiliki side project agar memiliki penghasilan tambahan. Aku menemukan [**IndiHackers**](https://indiehackers.com), forum komunitas indie developer. Disana para developer saling bercerita mengenai pengalaman mereka mengenai *idea-validation*, *milestone*, serta teknik-teknik mendapatkan user. Dari sini aku mendapatkan **Expectation, Value dan Delay**.
 
-Selain itu untuk meningkatkan **Value** aku juga menggunakan [**Trello**](https://trello.com) sebagai task management. Mengetahui aktifitas *keep-on-track* dan mengetahui task-task yang sudah *done* dan jadi lega banget.
+Selain itu untuk meningkatkan **Value** aku juga menggunakan [**Trello**](https://trello.com) sebagai task management. Mengetahui aktifitasku tetap *on-track* dan mengetahui task-task yang sudah *done* terasa lega banget.
 
 ![Trello](./ss-trello.png)
 
